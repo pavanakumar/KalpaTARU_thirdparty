@@ -1,0 +1,10 @@
+34c34
+< void partitionner_pmetis(
+---
+> void libtreepart_avbp(
+68,69c68,69
+<                 {1,"pmetis","ParMetis - 'ParMETIS_V3_PartGeomKway' algorithm, Karypis Lab (alias with parmetis)",partitionner_pmetis},
+<                 {1,"parmetis","ParMetis - 'ParMETIS_V3_PartGeomKway' algorithm, Karypis Lab (alias with pmetis)",partitionner_pmetis},//alias name
+---
+>                 {1,"pmetis","ParMetis - 'ParMETIS_V3_PartGeomKway' algorithm, Karypis Lab (alias with parmetis)",libtreepart_avbp},
+>                 {1,"parmetis","ParMetis - 'ParMETIS_V3_PartGeomKway' algorithm, Karypis Lab (alias with pmetis)",libtreepart_avbp},//alias name
